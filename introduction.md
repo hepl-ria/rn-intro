@@ -1,5 +1,9 @@
 # ReactNative
 
+React Native est un framework JavaScript développé par Facebook, sur base de la librairie React, pour créer des applications mobiles natives. La différence majeure tient aux types de composants utilisés (Web Vs Native). Afin d'appréhender au mieux le développement d'une application mobile native via RN, il est nécessaire de maîtriser certains concepts de base de React, comme le JSX, la logique des composants, les state & props.
+
+React est une librairie JavaScript à base de composants visant à modifier le DOM.
+
 ## Les outils nécessaires au développement
 
 ### Mac OS
@@ -22,7 +26,7 @@
 * Sublime Text
 
 
-## Tester son application 
+## Tester son application
 
 ### Sur Androïd
 * S'inscrire à la [Console Play](https://play.google.com/apps/publish/signup/) pour accéder au [Google Play Store](https://support.google.com/googleplay/android-developer/answer/3131213?hl=fr)

@@ -63,3 +63,28 @@ ___
 * Ouvrir le terminal et se rendre dans le dossier du projet initialisé précedemment.
 * `react-native run-ios`
 
+___
+## FAQ
+
+* Pourquoi `import` :
+En React, on importe des éléménts (composants, libraires, etc.) de la manière suivante :
+```javascript
+import React, {Component} from 'react';
+```
+Dans ce cas de figure, on importe deux choses. la libraire React et le composant `Component`. Ce dernier import permet d'écrire ceci :
+```javascript
+ class MonComposant extends Component
+```
+à la place de
+ ```javascript
+ class MyComponent extends React.Component
+ ```
+* Pourquoi `export default` :
+Exporter avec le mot-clé `default` facilite les imports. De cette manière on peut écrire ceci :
+```javascript
+import Header from './header';
+```
+à la place de
+```javascript
+import { Header } from './header';
+```
